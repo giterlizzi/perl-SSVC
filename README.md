@@ -8,12 +8,12 @@
 use SSVC;
 
 $ssvc = SSVC->new(
-methodology              => 'cisa',
-exploitation             => 'active',
-automatable              => 'yes',
-technical_impact         => 'partial',
-mission_prevalence       => 'mission',
-public_well_being_impact => 'irreversible',
+  methodology              => 'cisa',
+  exploitation             => 'active',
+  automatable              => 'yes',
+  technical_impact         => 'partial',
+  mission_prevalence       => 'mission',
+  public_well_being_impact => 'irreversible',
 );
 
 # Get the decision
